@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/drawable_ic_broken_heart.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/drawable/ic_broken_heart.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/mipmap_ic_launcher.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/drawable_ic_heart.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/mipmap_ic_launcher_round.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/mipmap/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.passivedata.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.example.passivedata.app-main-46:/layout/activity_main.xml"
+    }
+]

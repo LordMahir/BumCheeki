@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593743836026",
+    "project_id": "wearos-18a2b",
+    "storage_bucket": "wearos-18a2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593743836026:android:06ef28550cb481f0da9cc3",
+        "android_client_info": {
+          "package_name": "com.example.passivedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593743836026-inktgouf20flumj8vu7eifkjcecih66a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXSNSmRzolja7jdUkMtyUsnQQEDmYd3YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593743836026-inktgouf20flumj8vu7eifkjcecih66a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
