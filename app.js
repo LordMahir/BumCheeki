@@ -91,7 +91,8 @@ db.collection('doc1').onSnapshot(docSnapshot => {
 
   app.get('/add', (req, res) => {
 
-    console.log("Data is being sent to mongoose server")const router = require('express').Router();
+    console.log("Data is being sent to mongoose server")
+    const router = require('express').Router();
     let Inventory = require('../models/inventory.model');
     
     router.route('/').get((req, res) => {
