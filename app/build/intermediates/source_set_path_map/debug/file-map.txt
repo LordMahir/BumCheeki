@@ -32,11 +32,11 @@ com.example.passivedata.app-jetified-hilt-work-1.0.0-30 /home/mahir/.gradle/cach
 com.example.passivedata.app-core-1.9.0-31 /home/mahir/.gradle/caches/transforms-3/cb6dd969391fff3bdaa9e9c217436810/transformed/core-1.9.0/res
 com.example.passivedata.app-jetified-lifecycle-livedata-core-ktx-2.5.1-32 /home/mahir/.gradle/caches/transforms-3/cb7eb48279aa3e1544fd54395ed02074/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/res
 com.example.passivedata.app-lifecycle-viewmodel-2.5.1-33 /home/mahir/.gradle/caches/transforms-3/ce03f0d8b38c03579ae75e4d052ed2ff/transformed/lifecycle-viewmodel-2.5.1/res
-com.example.passivedata.app-browser-1.4.0-34 /home/mahir/.gradle/caches/transforms-3/cfbeb0e1506f64b2f00c5dd28ba961a5/transformed/browser-1.4.0/res
-com.example.passivedata.app-fragment-1.5.3-35 /home/mahir/.gradle/caches/transforms-3/df18af4d3c8357f6f67311c074573f87/transformed/fragment-1.5.3/res
-com.example.passivedata.app-jetified-play-services-base-18.0.1-36 /home/mahir/.gradle/caches/transforms-3/e30bb964ca34e5d921fb7995a9e72ea8/transformed/jetified-play-services-base-18.0.1/res
-com.example.passivedata.app-jetified-datastore-preferences-1.0.0-37 /home/mahir/.gradle/caches/transforms-3/f1b33a81ef85c30c53958bfc6ba22dc6/transformed/jetified-datastore-preferences-1.0.0/res
-com.example.passivedata.app-coordinatorlayout-1.1.0-38 /home/mahir/.gradle/caches/transforms-3/f86743632860b1320591ff519c87c85f/transformed/coordinatorlayout-1.1.0/res
+com.example.passivedata.app-fragment-1.5.3-34 /home/mahir/.gradle/caches/transforms-3/df18af4d3c8357f6f67311c074573f87/transformed/fragment-1.5.3/res
+com.example.passivedata.app-jetified-play-services-base-18.0.1-35 /home/mahir/.gradle/caches/transforms-3/e30bb964ca34e5d921fb7995a9e72ea8/transformed/jetified-play-services-base-18.0.1/res
+com.example.passivedata.app-jetified-datastore-preferences-1.0.0-36 /home/mahir/.gradle/caches/transforms-3/f1b33a81ef85c30c53958bfc6ba22dc6/transformed/jetified-datastore-preferences-1.0.0/res
+com.example.passivedata.app-coordinatorlayout-1.1.0-37 /home/mahir/.gradle/caches/transforms-3/f86743632860b1320591ff519c87c85f/transformed/coordinatorlayout-1.1.0/res
+com.example.passivedata.app-google-services-38 /home/mahir/health-samples/health-services/PassiveData/app/build/generated/res/google-services/debug
 com.example.passivedata.app-pngs-39 /home/mahir/health-samples/health-services/PassiveData/app/build/generated/res/pngs/debug
 com.example.passivedata.app-resValues-40 /home/mahir/health-samples/health-services/PassiveData/app/build/generated/res/resValues/debug
 com.example.passivedata.app-rs-41 /home/mahir/health-samples/health-services/PassiveData/app/build/generated/res/rs/debug

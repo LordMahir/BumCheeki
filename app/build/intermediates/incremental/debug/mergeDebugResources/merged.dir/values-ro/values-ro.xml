@@ -58,12 +58,8 @@
     <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"S-a deschis pe telefon"</string>
     <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"Succes"</string>
     <string msgid="4327971892987955014" name="confirmation_overlay_a11y_type_image">"Imagine"</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkul a fost copiat în clipboard"</string>
     <string name="error_icon_content_description">Eroare</string>
     <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiați linkul"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Deschideți în browser"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Trimiteți linkul"</string>
     <string name="icon_content_description">Pictogramă de dialog</string>
     <string name="item_view_role_description">Filă</string>
     <string name="material_clock_toggle_content_description">Selectați ora</string>

@@ -26,7 +26,6 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.example.passivedata.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.flow.collect
 
 /**
  * Activity displaying the app UI. Notably, this binds data from [MainViewModel] to views on screen,
@@ -85,6 +84,44 @@ class MainActivity : AppCompatActivity() {
                 binding.enablePassiveData.isChecked = it
             }
         }
+//        firebaseMessage()
+        writeDataOnFirestore("Smiti Oswal", 20,79,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,74,96 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,71,96 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,77,96 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,70,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,72,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,72,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,72,98 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,72,98 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,75,98 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,80,98 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,79,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,79,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,76,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,75,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,75,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,75,97 )
+
+        writeDataOnFirestore("Smiti Oswal", 20,79,96 )
+
+
     }
 
     private fun updateViewVisiblity(uiState: UiState) {
@@ -103,6 +140,5 @@ class MainActivity : AppCompatActivity() {
             binding.lastMeasuredValue.isVisible = it
             binding.heart.isVisible = it
         }
-        firebaseMessage();
     }
 }

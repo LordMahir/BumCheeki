@@ -16,9 +16,12 @@
 
 package com.example.passivedata
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -79,7 +82,7 @@ class MainViewModel @Inject constructor(
         }
     }
     //@Override
-    fun heartIsDead( latestHeartRate: Integer){
+    fun heartIsDead( latestHeartRate: Int){
         if (latestHeartRate>140){
             sos = true
         }
@@ -95,20 +98,38 @@ class MainViewModel @Inject constructor(
 //    databaseRef.child("wearableData").push().setValue(dataToSend)
 
 }
+fun writeDataOnFirestore(name: String, age: Int,hr: Int, spo2: Int){
+    val user = HashMap<String, Any>()
+    user["name"] = name
+    user["age"] = age
+    user["hr"] = hr
+    user["spo2"] = spo2
 
-fun firebaseMessage(){
-
-    val database = FirebaseDatabase.getInstance()
-    val databaseRef = database.reference
-
-    val dataToSend = hashMapOf(
-        "sensorValue" to 123.45,
-        "timestamp" to System.currentTimeMillis()
-    )
-
-    databaseRef.child("wearableData").push().setValue(dataToSend)
-
+    val query =  FirebaseFirestore.getInstance().collection("doc1").whereEqualTo("name",name)
+    val count = query.count()
+    FirebaseFirestore.getInstance().collection("doc1").document(name).collection(count.toString())
+        .add(user)
+        .addOnSuccessListener { Log.d(TAG, "DocumentSnapshot successfully written!") }
+        .addOnFailureListener { e -> Log.w(TAG, "Error writing document", e) }
 }
+//fun firebaseMessage(){
+//
+//    val db = Firebase.firestore
+////    val databaseRef = database.reference
+//
+//    val dataToSend = hashMapOf(
+//        "sensorValue" to 123.45,
+//        "timestamp" to System.currentTimeMillis()
+//    )
+//    db.collection("student_info").document("student_list")
+//        .set(dataToSend)
+//        .addOnSuccessListener { documentReference ->
+//            Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference}")
+//        }
+//        .addOnFailureListener { e ->
+//            Log.w(TAG, "Error adding document", e)
+//        }
+//}
 
 
 

@@ -57,12 +57,8 @@
     <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"Саатыңызда ачылды"</string>
     <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"Ийгилик"</string>
     <string msgid="4327971892987955014" name="confirmation_overlay_a11y_type_image">"Сүрөт"</string>
-    <string msgid="3260749812566568062" name="copy_toast_msg">"Шилтеме буферге көчүрүлдү"</string>
     <string name="error_icon_content_description">Ката</string>
     <string name="exposed_dropdown_menu_content_description">Түрүлмө менюну көрсөтүү</string>
-    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Шилтемени көчүрүү"</string>
-    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Серепчиден ачуу"</string>
-    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Шилтемени бөлүшүү"</string>
     <string name="icon_content_description">Диалог сүрөтчөсү</string>
     <string name="item_view_role_description">Өтмөк</string>
     <string name="material_clock_toggle_content_description">Тандоо: AM же PM</string>
